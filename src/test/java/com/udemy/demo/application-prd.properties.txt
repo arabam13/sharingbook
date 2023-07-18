@@ -1,0 +1,9 @@
+spring.cloud.azure.keyvault.enabled=true
+spring.cloud.azure.keyvault.secret.property-sources[0].endpoint=https://sharingbook-vault.vault.azure.net/
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring.jpa.database-platform=org.hibernate.dialect.Oracle12cDialect
+spring.datasource.username=ADMIN
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.hikari.connectionTimeout=60000 
+spring.datasource.hikari.idleTimeout=1200000 
+spring.datasource.hikari.maxLifetime=3600000 

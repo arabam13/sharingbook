@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sharingbook
+    username: postgres
+    password: password
+
+  sql:
+    init:
+      mode: always
+
+jwt-secret: OTJmN2U5YjBhOTJlNzI0ZmY5NTFiNzIxMjU4ZWU2NGMyMzEwODMLMDllNjVjOGY1MGUzNDdhNGNmN2YyMDZkM2ZiODc1YTJhOTUzYzJkZjM2MmQ0ZGM4ODA2YTRiZDY3MDgwYmExYzczOGY3YzVmNmUyYTZiYTZmZmExZGE5YWE=

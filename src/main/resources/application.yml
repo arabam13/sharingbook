@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+
+info:
+  application:
+    name: sharing book app
+    description: sharing book app developed on The Spring Framework (back) and React Typescript (front).
+    author: Mohamed
+    version: '@project.version@'
+spring:
+  profiles:
+    active: prd
