@@ -42,7 +42,7 @@ public class SecurityConfiguration {
                         .requestMatchers(HttpMethod.GET, "/isConnected").permitAll()
                         .requestMatchers(HttpMethod.GET, "/").permitAll()
                         .requestMatchers(HttpMethod.GET,"/index.html").permitAll()
-                        .requestMatchers(HttpMethod.GET,"/favicon.ico").permitAll()
+                        // .requestMatchers(HttpMethod.GET,"/favicon.ico").permitAll()
                         .requestMatchers(HttpMethod.GET, "/assets/**").permitAll()
                         // .requestMatchers("/v3/api-docs/**").permitAll()
                         // .requestMatchers("/api-docs.yaml").permitAll()
